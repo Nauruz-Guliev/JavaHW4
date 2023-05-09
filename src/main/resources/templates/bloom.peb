@@ -1,0 +1,25 @@
+    {% extends 'base' %}
+
+    {% block content %}
+
+<form method="post">
+  <div class="form-group w-100">
+    <label>Word to check</label>
+    <input type="text" class="form-control"  name="pageUrl" value="{{ bloom.word }}">
+    </input>
+  </div>
+  <button class="btn btn-primary mb-2 w-100" type="submit">CALCULATE</button>
+  {% if message != null %}
+    <div class="alert alert-success" role="alert">
+    {{ message }}
+    </div>
+    {% endif %}
+  <div>
+  <p> {{ originalText }}</p>
+  </div>
+
+
+</form>
+
+
+{% endblock content %}
