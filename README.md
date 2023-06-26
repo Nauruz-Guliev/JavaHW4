@@ -1,6 +1,3 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/PtUitKZs)
-
-
 # Caching
 Консольное приложение по получению погоды.  Для удобстваа за основу взят Spring Boot, но при этом отключен WEB (настройка в properites). Поддерживается 4 вида кэширования: redis, postgresql, in memory(хранение в hashmap), spring caching.
 
@@ -37,4 +34,3 @@
 ### Что можно улучшить
 * Продумать механику очистки кэша. Для редиса и спринга это выполняется автоматически, а для других хранилищ - нет.
 * Кэш спринга чистится каждые 10 минут (всегда), даже если он не используется. Добавить логику отключения этого режима.
-* 
