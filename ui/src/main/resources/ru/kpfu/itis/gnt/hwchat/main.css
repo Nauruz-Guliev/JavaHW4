@@ -1,0 +1,197 @@
+#registerButton {
+    -fx-background-color: #333333;
+    -fx-text-fill: white;
+    -fx-font-family: "Roboto";
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-border-radius: 2px;
+    -fx-padding: 10px 20px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 5, 0.5, 0, 1);
+}
+
+#registerButton:hover {
+    -fx-background-color: #4d4d4d;
+}
+
+#registerButton:pressed {
+    -fx-background-color: #262626;
+    -fx-text-fill: rgba(255, 255, 255, 0.8);
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.4), 5, 0.5, 0, 2);
+}
+
+#registerButton:disabled,
+#registerButton:default:disabled {
+    -fx-opacity: 0.5;
+}
+
+
+
+#registerTextField {
+    -fx-background-color: white;
+    -fx-text-fill: black;
+    -fx-border-color: #bababa;
+    -fx-border-radius: 4px;
+    -fx-font-size: 14px;
+    -fx-prompt-text-fill: #a9a9a9;
+    -fx-padding: 8px 8px;
+}
+
+#registerTextField:focused {
+    -fx-background-color: white;
+    -fx-text-fill: black;
+    -fx-border-color: #4d4d4d;
+    -fx-border-width: 2px;
+    -fx-border-radius: 4px;
+}
+
+#registerTextField:disabled {
+    -fx-opacity: 0.5;
+}
+
+#titleLabel {
+    -fx-text-fill: black;
+    -fx-font-family: "Roboto";
+    -fx-font-size: 28px;
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 5, 0.5, 0, 1);
+}
+
+
+
+#titleLabel:disabled {
+    -fx-opacity: 0.5;
+}
+
+
+#stickerComboBox {
+    -fx-background-color: white;
+    -fx-text-fill: #333333;
+    -fx-font-family: "Roboto";
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 5, 0.5, 0, 1);
+}
+
+#stickerComboBox  .arrow-button {
+    -fx-background-color: #333333;
+}
+
+#stickerComboBox  .arrow {
+    -fx-background-color: white;
+}
+
+#stickerComboBox :hover {
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.4), 5, 0.5, 0, 2);
+}
+
+#stickerComboBox :disabled {
+    -fx-opacity: 0.5;
+}
+
+#messageHBox {
+    -fx-background-color: #333333;
+    -fx-padding: 10 10 10 10;
+}
+
+#chatTextField {
+    -fx-background-color: white;
+    -fx-text-fill: #333333;
+    -fx-font-family: "Roboto";
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-border-color: #333333;
+    -fx-border-radius: 2px;
+    -fx-padding: 8px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 5, 0.5, 0, 1);
+}
+
+#chatTextField:hover,
+#chatTextField:focused {
+    -fx-border-color: #4e5865;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.4), 5, 0.5, 0, 2);
+}
+
+#chatTextField:disabled {
+    -fx-opacity: 0.5;
+}
+
+
+#sendButton {
+    -fx-background-color: #3F51B5;
+    -fx-text-fill: white;
+    -fx-font-family: "Roboto";
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-border-radius: 24px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.4), 5, 0, 0, 1);
+}
+
+
+#sendButton:hover {
+    -fx-background-color: #303F9F;
+}
+
+#sendButton:pressed {
+    -fx-background-color: #1A237E;
+}
+
+#sendButton:disabled,
+#sendButton:default:disabled {
+    -fx-opacity: 0.5;
+}
+
+
+
+.scroll-pane {
+    -fx-background-color: white;
+    -fx-border-color: #383c4b;
+    -fx-border-width: 1px;
+    -fx-effect: dropshadow(gaussian, #4e5865, 10, 0, 0, 1);
+}
+
+.scroll-pane .corner {
+    -fx-background-color: #383c4b;
+}
+
+.scroll-bar:vertical, .scroll-bar:horizontal {
+    -fx-background-color: #C5CAE9;
+}
+
+.scroll-bar:vertical .thumb, .scroll-bar:horizontal .thumb {
+    -fx-background-color: #525a6c;
+}
+
+#chatBox {
+    -fx-padding: 8;
+}
+
+#card {
+    -fx-background-color: #f7f7f7;
+    -fx-background-radius: 10;
+    -fx-border-color: #ccc;
+    -fx-border-radius: 10;
+    -fx-border-width: 1;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.15), 10, 0, 0, 3);
+    -fx-padding: 10;
+    -fx-spacing: 5;
+}
+
+#authorLabel {
+    -fx-font-size: 12;
+    -fx-font-weight: bold;
+    -fx-font-family: "Roboto";
+    -fx-text-fill: #303F9F;
+}
+
+#textLabel {
+    -fx-font-size: 14;
+    -fx-font-weight: bold;
+    -fx-font-family: "Roboto";
+    -fx-text-fill: #343434;
+}
+
+#dateLabel {
+    -fx-font-size: 10;
+    -fx-font-family: "Roboto";
+    -fx-text-fill: #9b9b9b;
+}
